@@ -69,13 +69,14 @@ while True:
 
             if isValid:
                 print("Vehicle is allowed")
-                winsound.Beep(440, 5000)
+               
             else:
                 print("Vehicle is not allowed")
+                winsound.Beep(440, 5000)      # PLAYS BEEP FOR 5 SECONDS AT 440 Hz FREQUENCY
 
 
 
-    # time.sleep(5)
+    time.sleep(5) # TIMER FOR FRAME CAPTURE
 
     # DISPLAYING VIDEO CAPTURE 
     cv2.imshow("Capture", img)
