@@ -27,12 +27,12 @@ The script then waits for 5 seconds (timer can be modified in the "program.py" f
 ```
 pip install opencv-python easyocr pandas
 ```
-- Check if the path for haarcascade file and csv file are set properly in "program.py"
+- Check if the path for `haarcascade file` and `Book1.csv` file are set properly in "program.py"
 - Once all the libraries are installed successfully, run the `program.py` file 
 ```
 python program.py
 ```
-## Output
+## OUTPUT
 <p align="center">
   <img src="Output.png">
 </p>
